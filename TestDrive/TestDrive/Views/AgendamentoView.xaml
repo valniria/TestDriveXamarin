@@ -4,10 +4,32 @@
              x:Class="TestDrive.Views.AgendamentoView"
              Title="{Binding Veiculo.Modelo}">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="25">
+            <TableView>
+                <TableRoot>
+                    <TableSection Title="Seus Dados">
+                        <EntryCell Label="Nome: " Text="{Binding Nome}"></EntryCell>
+                        <EntryCell Label="Fone: " Text="{Binding Fone}" Keyboard="Telephone"></EntryCell>
+                        <EntryCell Label="E-mail: " Text="{Binding Email}" Keyboard="Email"></EntryCell>
+                    </TableSection>
+                    <TableSection Title="Agendamento">
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Margin="12,0,0,0">
+                                <Label Text="Data: "></Label>
+                                <DatePicker Date="{Binding DataAgendamento}"></DatePicker>
+                            </StackLayout>
+                        </ViewCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Margin="12,0,0,0">
+                                <Label Text="Hora:"></Label>
+                                <TimePicker Time="{Binding HoraAgendamento}"></TimePicker>
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            <Button Text="Agendar"
+                    Clicked="Button_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
