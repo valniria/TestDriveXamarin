@@ -29,7 +29,7 @@
                 </TableRoot>
             </TableView>
             <Button Text="Agendar"
-                    Clicked="Button_Clicked"></Button>
+                    Command="{Binding AgendarCommand}"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

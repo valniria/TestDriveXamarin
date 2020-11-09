@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Windows.Input;
 using TestDrive.Models;
+using Xamarin.Forms;
 
 namespace TestDrive.ViewModels
 {
     public class DetalheViewModel : INotifyPropertyChanged
     {
         public Veiculo Veiculo { get; set; }
+
+        public ICommand ProximoCommand { get; set; }
 
         public string TextoFreioAbs
         {
@@ -94,6 +98,9 @@ namespace TestDrive.ViewModels
         public DetalheViewModel(Veiculo veiculo)
         {
             this.Veiculo = veiculo;
+            ProximoCommand = new Command(() => {
+                MessagingCenter.Send(veiculo, "Proximo");
+            });
         }
     }
 }
