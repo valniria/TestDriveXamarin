@@ -14,3 +14,4 @@ D:\Estudos\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\Views\Detalhes
 D:\Estudos\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\Views\AgendamentoView.xaml.g.cs
 D:\Estudos\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\TestDrive.csproj.CoreCompileInputs.cache
 D:\Estudos\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Estudos\TestDrive\TestDrive\TestDrive\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs

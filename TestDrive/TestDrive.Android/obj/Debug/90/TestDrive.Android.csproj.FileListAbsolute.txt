@@ -464,3 +464,4 @@ D:\Estudos\TestDrive\TestDrive\TestDrive.Android\obj\Debug\90\stamp\_GenerateJav
 D:\Estudos\TestDrive\TestDrive\TestDrive.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 D:\Estudos\TestDrive\TestDrive\TestDrive.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 D:\Estudos\TestDrive\TestDrive\TestDrive.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+D:\Estudos\TestDrive\TestDrive\TestDrive.Android\obj\Debug\90\res\drawable\aluracar.png
